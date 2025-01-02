@@ -6,6 +6,8 @@ out/
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+/broadcast/
+/lib
 
 # Docs
 docs/
@@ -13,5 +15,7 @@ docs/
 # Dotenv file
 .env
 
-/lib
-.keystore
+
+# zksync
+
+zkout/
