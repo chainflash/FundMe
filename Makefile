@@ -31,7 +31,7 @@ snapshot :; forge snapshot
 
 format :; forge fmt
 
-anvil :; anvil -m 'test test test test test test test test test test test junk' --steps-tracing --block-time 10
+anvil :; anvil -m 'test test test test test test test test test test test junk' --steps-tracing --block-time 1
 
 zk-anvil :; npx zksync-cli dev start
 
